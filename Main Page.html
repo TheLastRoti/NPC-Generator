@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>NPC Generator - Main Page</title>
+	<link rel="stylesheet" type="text/css" href= "CSS_Main.css">
+<style>
+	table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	}
+	th, td {
+	padding: 5px;
+	text-align: center;
+	}
+</style>
+</head>
+
+<body>
+<div class="Header">
+	<br> <h1>Lev's NPC Generator </h1> <h2>Unique Characters for your Unique Campaign.</h2>
+</div>
+
+<div id="Menu">
+     <ul>
+		<li><a class="active" href="Main Page.html">Home</li></a></li>
+		<li><a href="About.html">About</li></a></li>
+		<li><a href="Contacts.html">Contacts</li></a></li>
+		<li><a href="Testimonials.html">Testimonials</li></a></li>
+	</ul>
+</div>
+
+<div class="ButtonSection">
+	<br> <h2> A new character awaits, randomized below. Will they be friend or foe, enemy or ally? Perhaps they will lead our Adventurers into great peril, or bring them newfound 
+	treasures beyond their wildest dreams? </h2>
+	
+	<button id='answerButton' style = "font-size : 30px; height: 100px; background-color: rgb(189, 154, 59); width: 200px;"> Randomize Character!</button>
+
+	<br> <br> <div id="characterBuilder">
+		<br> <span id="answerContainer_Firstname">Firstname</span> <span id="answerContainer_Lastname">Lastname</span> is a <span id="answerContainer_Age1">Age1</span> 
+		year old <span id="answerContainer_Gender">Gender</span> <span id="answerContainer_Race">Race</span> who occasionally goes by the name <span id="answerContainer_Nickname">Nickname</span>.
+		<span id="answerContainer_Firstname1">Firstname1</span> is currently <span id="answerContainer_Relationship">Relationship</span>. They originally come from the 
+		<span id="answerContainer_Realm">Realm</span> of <span id="answerContainer_Continent">Continent</span> but now live <span id="answerContainer_Location">Location</span> while 
+		<span id="answerContainer_Hobby">Hobby</span>. They have <span id="answerContainer_EyeColour">EyeColour</span> eyes, <span id="answerContainer_Hair">Hair</span>, <span id="answerContainer_Hair2">Hair2</span> 
+		hair and <span id="answerContainer_SkinAdjective">SkinAdjective</span>, <span id="answerContainer_SkinColour">SkinColour</span> skin. <span id="answerContainer_Firstname2">Firstname2</span> stands
+		<span id="answerContainer_Height">Height</span> tall and has <span id="answerContainer_Build">Build</span> build. In addition, they have <span id="answerContainer_Face1">Face1</span>, 
+		<span id="answerContainer_Face2">Face2</span> face with <span id="answerContainer_Description">Description</span>. <br> <br>
+	   
+		<span id="answerContainer_WeaponTime">WeaponTime</span>, <span id="answerContainer_Firstname3">Firstname3</span> carries their trusty <span id="answerContainer_Weapon">Weapon</span> 
+		<span id="answerContainer_WeaponName">WeaponName</span> with them. It was given to them by their <span id="answerContainer_FunnyTrait">FunnyTrait</span> 
+		<span id="answerContainer_FamilyMember">FamilyMember</span> <span id="answerContainer_Year">Year</span> years ago. They had a very <span id="answerContainer_Background">Background</span> childhood 
+		and growing up they always wanted to <span id="answerContainer_Dream">Dream</span>. At the age of <span id="answerContainer_Age2">Age2</span>, 
+		they had to learn to <span id="answerContainer_Skill">Skill</span> when a horde of <span id="answerContainer_MonsterAdjective">MonsterAdjective</span> 
+		<span id="answerContainer_Monster">Monster</span> attacked their <span id="answerContainer_HomeAdjective">HomeAdjective</span> home. <br> <br>
+	   
+		<span id="answerContainer_Firstname4">Firstname4</span> <span id="answerContainer_GodAdjective">GodAdjective</span> worships <span id="answerContainer_God">God</span>, 
+		Goddess of <span id="answerContainer_GodThing1">GodThing1</span> and <span id="answerContainer_GodThing2">GodThing2</span> (<span id="answerContainer_Alignment1">Alignment1</span> 
+		<span id="answerContainer_Alignment2">Alignment2</span>). They’re very <span id="answerContainer_Trait1">Trait1</span>, <span id="answerContainer_Trait2">Trait2</span>, and 
+		empathetic towards <span id="answerContainer_Thing">Thing</span>. They can’t stand <span id="answerContainer_HateThing">HateThing</span> and are hopelessly 
+		scared of <span id="answerContainer_ScareThing">ScareThing</span>. <span id="answerContainer_Firstname5">Firstname5</span> loves <span id="answerContainer_LoveThing">LoveThing</span> and 
+		<span id="answerContainer_Personality">Personality</span>. They <span id="answerContainer_Quirk1">Quirk1</span> and have <span id="answerContainer_Quirk2">Quirk2</span>. One secret 
+		<span id="answerContainer_Firstname6">Firstname6</span> will never tell anyone is that <span id="answerContainer_PlotHook">Plothook</span>. <br> </div>
+
+			
+	<br> <br> <table style="width: 15%">
+		<tr>
+		    <th>Ability Scores</th>
+			<th>Score</th> 
+		</tr>
+		<tr>
+			<td>Strength</td>
+			<td><span id="answerContainer_Strength">Strength</span></td>
+				
+        </tr>
+		<tr>
+			<td>Dexterity</td>
+			<td><span id="answerContainer_Dexterity">Dexterity</span></td>
+		</tr>
+		<tr>
+			<td>Constitution</td>
+			<td><span id="answerContainer_Constitution">Constitution</span></td>
+		</tr>
+		<tr>
+			<td>Intelligence</td>
+			<td><span id="answerContainer_Intelligence">Intelligence</span></td>
+		</tr>
+		<tr>
+			<td>Wisdom</td>
+			<td><span id="answerContainer_Wisdom">Wisdom</span></td>
+		</tr>
+		<tr>
+			<td>Charisma</td>
+			<td><span id="answerContainer_Charisma">Charisma</span></td>
+		</tr>
+	</table>
+			
+	</div>
+</div>
+		
+<div class="footer">
+	<h3>Thank you for visiting Lev's NPC Generator. I hope you enjoy all the potential characters that my custom-build generator will create for you! © 2020 Amrit Singh. All rights reserved. </h2> 
+</div>
+
+ <script src="NPC_Gen.js"></script>
+</body>
+</html>

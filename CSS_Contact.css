@@ -1,0 +1,80 @@
+/* CSS For Body */
+body {
+    font-family: Arial; /* Font style */
+    padding: 10px; /* Padding amount */
+    background: #9c620a; /* Body Colour */
+  }
+  
+  /* CSS for the Header */
+  .Header {
+    text-align: center; /* Aligns text to the middle */
+    font-size: 30px; /* Font size of 30 px */
+    width: 1867px; /* Width of container is 1867 px. Heh, that's the year of Confederation */
+    height: 600px; /* Height of container is 600 px */
+    line-height: 45%; /* Height between lines is reduced to 45% */
+    background-image: url("https://aurorabuilder.com/wp-content/uploads/2019/07/saltmarsh-banner.jpg"); /* Image URL */
+    color: rgb(182, 83, 44); /* Text Colour for the Header */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Black Text Shadow Code */
+  }
+  
+  /* CSS for the Menu */
+  #Menu {
+   font-size: 25px; /* Font size of 25 px */
+  }
+  
+  /* CSS for the Menu background */
+  #Menu ul {
+    list-style-type: none; /* No Bullets */
+    overflow: hidden; /* No Scroll Wheel */
+    background-color: rgb(77, 39, 21); /* Background colour of the Menu */
+    margin-bottom: 0px; /* Margin from the top div is 0 */
+    margin-top: 0px; /* Margin from the top div is 0 */
+    padding: 0; /* No padding on the left and right of the menu */
+    display: flex; /* Add flexbox to list */
+  }
+  
+  /* CSS for Menu Edges*/
+  #Menu li {
+    border-right: 1px solid rgb(104, 99, 99); /* Left border line of 1 px separating blocks. */
+    border-left: 1px solid rgb(104, 99, 99); /* Right border line of 1 px separating blocks. */
+    flex: 1  /* With flexbox we don't need float anymore */
+  
+  }
+  
+  /* CSS for Menu Tabs */
+  #Menu li a {
+    display: block; /* Turns it into a block display */
+    color: rgb(187, 180, 180); /* Background colour of Text */
+    text-align: center; /* Aligns text to the middle of the block */ 
+    padding: 16px 177px; /* Padding of 16px and 177 px between blocks */
+    text-decoration: none; /* Makes sure there are no underlines */
+  }
+  
+  /* CSS for Inactive Menu Tab */
+  #Menu li a:hover:not(.active) {
+    background-color: rgb(119, 95, 50); /* Background colour of Inactive Menu Tab */
+  }
+  
+  /* CSS for Active Menu Tab */
+  #Menu .active {
+    background-color: rgb(105, 75, 19); /* Background colour of Active Menu Tab */
+  }
+  
+  /* CSS for the main section with the button */
+.TextBody {
+    background-color: rgb(233, 193, 141); /* Background colour of Button Section */
+    text-align: center; /* Aligns text to the middle */
+    padding: 15px; /* Padding amount of 15 px */ 
+    font-size: 20px; /* Font size of 20 px */
+    height: 700px; /* Height of container */
+    overflow-y:auto; /* Makes sure container size doesn't shift from 700px */
+  }
+  
+  /* CSS for the Footer */
+  .footer {
+    text-align: center; /* Aligns text to the middle */
+    background: rgb(189, 154, 59); /* Footer Background Colour */
+    padding: 10px; /* Padding amount of 10 px */
+    width: 1847px; /* Width of 1847 px */
+    height: 60px; /* Height of 60 px */
+  }
