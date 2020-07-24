@@ -24,7 +24,7 @@ var answers_Age1 = [
     '19', '20', '22', '23', '24', '25', '26', '27', '30', '31', '32', '33', '36', '42', '46', '50', '59', '60', '63', '75', ];
     
 var answers_Gender = [
-    'male', 'female', 'bisexual', 'non-binary', ];
+    'male', 'female', 'non-binary', ];
     
 var answers_Race = [
     'human', 'dragonborn', 'gnome', 'half-elf', 'elf', 'dwarf', 'halfling', 'tiefling', 'half-orc' ];
